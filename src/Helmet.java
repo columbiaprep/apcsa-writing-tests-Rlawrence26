@@ -1,4 +1,7 @@
 // Max B
+
+import static org.junit.Assert.assertEquals;
+
 public class Helmet {
     private int modifier;
     private String helmetType;
@@ -133,5 +136,7 @@ public class Helmet {
     public int getChaMod(){
         return 0;
     }
+    
+
 
 }

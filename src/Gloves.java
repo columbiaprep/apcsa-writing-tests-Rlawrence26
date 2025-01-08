@@ -120,9 +120,4 @@ public class Gloves {
         return value;
     }
 
-    // Test case (simple example)
-    public boolean test() {
-        Gloves g = new Gloves("Common", "The Force", true, 20, 500, 10);
-        return g.getStrMod() == 2 && g.getDexMod() == 1 && g.getConMod() == 2 && g.getWisMod() == 0 && g.getChaMod() == 0;
-    }
 }

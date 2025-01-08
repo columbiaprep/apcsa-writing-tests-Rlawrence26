@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+
 public class Item {
     private String name;
     private double weight;
@@ -35,4 +37,7 @@ public class Item {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+    
+
 }
+   

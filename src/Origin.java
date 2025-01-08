@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+
 public class Origin {
     private String place;
     private String language;
@@ -200,4 +202,7 @@ public class Origin {
 
         return true;
     }
+    
+    
+
 }

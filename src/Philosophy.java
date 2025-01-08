@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+
 public class Philosophy {
     private int knowledge;
     private int fighting;
@@ -152,8 +154,5 @@ public class Philosophy {
 
         return true;
     }
-
-
-
 
 }

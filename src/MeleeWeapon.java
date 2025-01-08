@@ -1,4 +1,7 @@
 // Matthew D
+
+import static org.junit.Assert.assertEquals;
+
 public class MeleeWeapon extends Weapon{
     private String type;
     private int strength;
@@ -105,7 +108,7 @@ public class MeleeWeapon extends Weapon{
     public void setWisMod(int wisMod) {
         this.wisMod = wisMod;
     }
-    public int getChaModMod(){
+    public int getChaMod(){
         return this.chaMod;
 
     }
@@ -161,9 +164,14 @@ public class MeleeWeapon extends Weapon{
 
 
         weapon.setChaMod(6);
-        if (weapon.getChaModMod() != 6) return false;
+        if (weapon.getChaMod() != 6) return false;
 
 
         return true;
     }
+    public void test() {
+        assertEquals(3, 1+1);
+    }
 }
+
+
